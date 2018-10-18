@@ -6,7 +6,7 @@ alfa=2
 kibble1=function(x,y) {(1/(1-ro))*((y/(x* ro))^((alfa-1)/2))*exp(-(ro*x+y)/(1-ro))*besselI((2*sqrt(ro*x*y))/(1-ro),(alfa-1))}
 #X|y
 kibble2=function(x,y){ (1/(1-ro))*((x/(y* ro))^((alfa-1)/2))*exp(-(ro*y+x)/(1-ro))*besselI((2*sqrt(ro*x*y))/(1-ro),(alfa-1))}
-#----------------------------Y| be sharte x---------------------------
+#----------------------------Y| in condition of x---------------------------
 y.x=function(ee,x){
 i=2
 zz=c()
@@ -24,7 +24,7 @@ zz[i]=ee
 }
 mean(zz[500:1000])
 }
-#----------------------------X| be sharte Y---------------------------
+#----------------------------X| in condition of Y---------------------------
 
 x.y=function(ee,v){
 i=2
